@@ -1,0 +1,15 @@
+# 🔓 Crack Result Log - AWS Hash Vault Test
+Date: 2025-05-14
+
+Submitted Hash:
+5f4dcc3b5aa765d61d8327deb882cf99
+
+Cracked Output:
+?:password
+
+Command Used:
+snap run john-the-ripper --format=raw-md5 --wordlist=rockyou.txt md5.txt
+snap run john-the-ripper --show --format=raw-md5 md5.txt
+
+Status:
+✅ SUCCESS – 1 password hash cracked, 0 left
